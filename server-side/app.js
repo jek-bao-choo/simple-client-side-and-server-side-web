@@ -10,8 +10,11 @@ app.use(cors())
 // axios init
 const axios = require('axios').default
 
-// elephantsql init
-// const elephantsql = require('./elephantsql')
+// pg elephantsql init
+/*const pg = require('pg')
+const conString = "INSERT_YOUR_POSTGRES_URL_HERE" //Can be found in the Details page
+const client = new pg.Client(conString);
+client.connect()*/
 
 // get hello world endpoint
 app.get('/helloworld', (req, res) => res.send('Hello World!'))
@@ -31,7 +34,14 @@ app.get('/dummy', (req, res) => {
 
 // placeholder for illustration
 app.get('/basic/data', function (req, res) {
-    res.send('/basic/data')
+    // return client.query('SELECT NOW() AS "theTime"', (err, result) => {
+    //     if(err) {
+    //         return console.error('error running query', err);
+    //     }
+    //     console.log(result);
+        res.send('/basic/data')
+        // client.end();
+    // })
 })
 
 // placeholder for illustration
