@@ -8,7 +8,10 @@ const cors = require('cors')
 app.use(cors())
 
 // axios init
-const axios = require('axios').default;
+const axios = require('axios').default
+
+// elephantsql init
+// const elephantsql = require('./elephantsql')
 
 // get hello world endpoint
 app.get('/helloworld', (req, res) => res.send('Hello World!'))
