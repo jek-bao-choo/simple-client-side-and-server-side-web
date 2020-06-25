@@ -2,7 +2,7 @@
 - Prerequisite: You need Node and NPM installed.
 - Go to folder server-side `npm install`. Upon completion, you will see a new folder created called /node_modules
 - Run `node app.js` and you will see it listening to localhost:3000
-- Go to folder client-side, open index.html
+- Go to folder client-side, open index.html using your web browser i.e. Chrome, Firefox
 
 ---
 
