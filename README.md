@@ -1,4 +1,4 @@
-1) How to run it?
+# How to run it?
 - Prerequisite: You need Node and NPM installed.
 - Go to folder server-side `npm install`. Upon completion, you will see a new folder created called /node_modules
 - Run `node app.js` and you will see it listening to localhost:3000
@@ -6,7 +6,7 @@
 
 ---
 
-2) There are 2 folders: client-side and server-side. Why?
+# There are 2 folders: client-side and server-side. Why?
 client-side is code running on the web browser. The code in client-side folder is a simple html and pure vanilla javascript. No web framework.
 
 server-side is code running on the server. We are using express.js
@@ -18,5 +18,5 @@ You can read more about client-side and server-side from https://developer.mozil
 
 ---
 
-3) Where did you get your dummy rest api?
+# Where did you get your dummy rest api?
 Any site that host a dummy rest api will do. I am using http://dummy.restapiexample.com/ for illustration.
