@@ -11,7 +11,7 @@ app.use(cors())
 const axios = require('axios').default;
 
 // get hello world endpoint
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/helloworld', (req, res) => res.send('Hello World!'))
 
 // get dummy endpoint
 app.get('/dummy', (req, res) => {

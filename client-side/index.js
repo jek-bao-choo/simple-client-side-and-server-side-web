@@ -12,8 +12,8 @@ function getDummyData_ClientSide_WebAPI() {
         });
 }
 
-function getHelloWorld_ClientSide_ServerSide_WebAPI() {
-    axios.get('http://localhost:3000/')
+function getHelloWorld_ClientSide_ServerSide() {
+    axios.get('http://localhost:3000/helloworld')
         .then(function (response) {
             // handle success
             console.log(response);
