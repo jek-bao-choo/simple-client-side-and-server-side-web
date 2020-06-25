@@ -3,12 +3,12 @@ function getDummyData_ClientSide_WebAPI() {
         .then(function (response) {
             // handle success
             console.log(response);
-            alert('success - see developer console');
+            alert('success - see your web browser developer console');
         })
         .catch(function (error) {
             // handle error
             console.log(error);
-            alert('error - see developer console');
+            alert('error - see your web browser developer console');
         });
 }
 
@@ -17,12 +17,12 @@ function getHelloWorld_ClientSide_ServerSide() {
         .then(function (response) {
             // handle success
             console.log(response);
-            alert('success - see developer console');
+            alert('success - see your web browser developer console');
         })
         .catch(function (error) {
             // handle error
             console.log(error);
-            alert('error - see developer console');
+            alert('error - see your web browser developer console');
         });
 }
 
@@ -31,12 +31,12 @@ function getDummyData_ClientSide_ServerSide_WebAPI() {
         .then(function (response) {
             // handle success
             console.log(response);
-            alert('success - see developer console');
+            alert('success - see your web browser developer console');
         })
         .catch(function (error) {
             // handle error
             console.log(error);
-            alert('error - see developer console');
+            alert('error - see your web browser developer console');
         });
 }
 
@@ -45,12 +45,12 @@ function getBasicData_ClientSide_ServerSide() {
         .then(function (response) {
             // handle success
             console.log(response);
-            alert('success - see developer console');
+            alert('success - see your web browser developer console');
         })
         .catch(function (error) {
             // handle error
             console.log(error);
-            alert('error - see developer console');
+            alert('error - see your web browser developer console');
         });
 }
 
@@ -59,12 +59,12 @@ function getAdvanceData_ClientSide_ServerSide() {
         .then(function (response) {
             // handle success
             console.log(response);
-            alert('success - see developer console');
+            alert('success - see your web browser developer console');
         })
         .catch(function (error) {
             // handle error
             console.log(error);
-            alert('error - see developer console');
+            alert('error - see your web browser developer console');
         });
 }
 
@@ -73,12 +73,12 @@ function getBasicResult_ClientSide_ServerSide() {
         .then(function (response) {
             // handle success
             console.log(response);
-            alert('success - see developer console');
+            alert('success - see your web browser developer console');
         })
         .catch(function (error) {
             // handle error
             console.log(error);
-            alert('error - see developer console');
+            alert('error - see your web browser developer console');
         });
 }
 
@@ -87,12 +87,12 @@ function getAdvanceResult_ClientSide_ServerSide() {
         .then(function (response) {
             // handle success
             console.log(response);
-            alert('success - see developer console');
+            alert('success - see your web browser developer console');
         })
         .catch(function (error) {
             // handle error
             console.log(error);
-            alert('error - see developer console');
+            alert('error - see your web browser developer console');
         });
 }
 
