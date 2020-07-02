@@ -7,6 +7,10 @@ const port = 3000
 const cors = require('cors')
 app.use(cors())
 
+// parse application/json
+const bodyParser = require('body-parser')
+app.use(bodyParser.json())
+
 // axios init
 const axios = require('axios').default
 
@@ -31,6 +35,14 @@ app.get('/dummy', (req, res) => {
             return res.send(error);
         });
 })
+
+/*
+*
+*
+* ADES
+*
+*
+* */
 
 // placeholder for illustration
 app.get('/basic/data', function (req, res) {
@@ -61,6 +73,10 @@ app.get('/advance/result', function (req, res) {
 
 // placeholder for illustration
 app.post('/basic/insert', function (req, res) {
+    const arrayJson = (req && req.body && req.body.data) ? req.body.data : [];
+    const insertStatement = 'INSERT INTO films (performanceId, festivalId, startTime, endTime) VALUES';
+    const insertValue = '';
+    arrayJson.forEach(element => console.log(element))
     res.send('/basic/insert')
 })
 
