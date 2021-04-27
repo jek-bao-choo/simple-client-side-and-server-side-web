@@ -1,8 +1,12 @@
 function getDummyData_ClientSide_WebAPI() {
-    axios.get('http://dummy.restapiexample.com/api/v1/employees')
-        .then(function (response) {
-            // handle success
-            console.log(response);
+    /* Fetch method */
+    fetch('https://pokeapi.co/api/v2/pokemon/ditto')
+        .then(function(response) {
+            console.log('response', response)
+            return response.json()
+        })
+        .then(function(json) {
+            console.log('json', json)
             alert('success - see your web browser developer console');
         })
         .catch(function (error) {
@@ -10,6 +14,18 @@ function getDummyData_ClientSide_WebAPI() {
             console.log(error);
             alert('error - see your web browser developer console');
         });
+    /* Axios method */
+    // axios.get('https://pokeapi.co/api/v2/pokemon/ditto')
+    //     .then(function (response) {
+    //         // handle success
+    //         console.log(response);
+    //         alert('success - see your web browser developer console');
+    //     })
+    //     .catch(function (error) {
+    //         // handle error
+    //         console.log(error);
+    //         alert('error - see your web browser developer console');
+    //     });
 }
 
 function getHelloWorld_ClientSide_ServerSide() {
